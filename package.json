@@ -8,7 +8,7 @@
   "typings": "./index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "docz:dev": "docz dev",
+    "docz:dev": "DOCZ_SOURCE=doc_files docz dev",
     "docz:build": "docz build",
     "sync": "yarn sync:work&&yarn sync:after",
     "sync:after": "rm -rf -d src/rambda/*.spec.js",
